@@ -77,3 +77,15 @@ h1,h2,h3,h4 {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .navbar .navbar-collapse .navbar-nav {
+    padding: 1rem 0;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-link {
+    text-align: center;
+  }
+}
