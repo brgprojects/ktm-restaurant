@@ -51,5 +51,14 @@ h1,h2,h3,h4 {
 }
 #about-us .info-about {
   padding: 1rem;
+}
 
+/* call to action */
+#call-to-action {
+  background: rgb(33,26,26);
+  background: linear-gradient(121deg, rgba(33,26,26,1) 0%, rgba(64,0,145,1) 90%);
+  min-height: 350px;
+}
+#call-to-action h1 {
+  font-size: 2.5rem;
 }
