@@ -2,13 +2,19 @@
 h1,h2,h3,h4 {
   font-family: 'Kaushan Script', cursive;
 }
-.primary-font {
+.font-primary {
   font-family: 'Kaushan Script', cursive;
 }
-
+.font-secondary {
+  font-family: 'Raleway', sans-serif;
+}
 .bg-black {
   background: #111;
 }
+.text-yellow {
+  color: yellow;
+}
+
 .navbar .navbar-brand {
   height: 70px;
 }
@@ -32,6 +38,15 @@ h1,h2,h3,h4 {
 .masthead .tagline {
   font-size: 20px;
 }
-.text-yellow {
-  color: yellow;
+
+/* about us */
+#about-us .info-img {
+  background: url("../img/about.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+#about-us .info-about {
+  padding: 1rem;
+
 }
