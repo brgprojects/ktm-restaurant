@@ -1,1 +1,10 @@
 /* Custom CSS */
+.bg-black {
+  background: #111;
+}
+.navbar .navbar-brand {
+  height: 70px;
+}
+.navbar .navbar-brand img {
+  height: 100%;
+}
