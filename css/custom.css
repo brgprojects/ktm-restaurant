@@ -62,3 +62,18 @@ h1,h2,h3,h4 {
 #call-to-action h1 {
   font-size: 2.5rem;
 }
+
+/* testimonials */
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+  background-color: #444;
+}
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+}
