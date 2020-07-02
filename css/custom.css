@@ -1,4 +1,7 @@
 /* Custom CSS */
+html {
+  scroll-behavior: smooth;
+}
 h1,h2,h3,h4 {
   font-family: 'Kaushan Script', cursive;
 }
@@ -24,16 +27,19 @@ h1,h2,h3,h4 {
 .navbar .navbar-brand img {
   height: 100%;
 }
+.section-padding {
+  padding: 100px 0;
+}
 
 /* banner */
 .masthead {
   background: url("../img/banner.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 600px;
+  height: 100vh;
 }
 .masthead .caption-wrapper {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 .masthead .hero-text {
   font-size: 3rem;
@@ -42,14 +48,14 @@ h1,h2,h3,h4 {
   font-size: 20px;
 }
 
-/* about us */
-#about-us .info-img {
+/* about */
+#about .info-img {
   background: url("../img/about.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   min-height: 300px;
 }
-#about-us .info-about {
+#about .info-about {
   padding: 1rem;
 }
 
@@ -78,6 +84,49 @@ h1,h2,h3,h4 {
   margin-right: 10px;
 }
 
+#contact .info-wrap {
+  padding: 30px;
+}
+
+#contact .info {
+  background: #f8f9fa;
+}
+
+#contact .info i {
+  font-size: 20px;
+  color: #ffb03b;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #433f39;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #7a7368;
+  word-wrap: break-word;
+}
+
+#contact .info:hover i {
+  background: #ffb03b;
+  color: #fff;
+}
 
 /* Responsive */
 
