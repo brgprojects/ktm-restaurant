@@ -69,7 +69,13 @@ Added some animation to section using [WowJS](https://wowjs.uk/).
 
 Do `git checkout step10-responsive`.
 
-Finally, some more changes to make it responsive i.e able to properly view in mobile and iPad.
+Now, some more changes to make it responsive i.e able to properly view in mobile and iPad.
 It is usually done with `@media` queries.
+
+### Step 11: Final Changes
+
+Do `git checkout final-changes`.
+
+Finally, some final adjustment in UX behavior and button text and added contact page.
 
 # Enjoyeee!
