@@ -1,10 +1,140 @@
 /* Custom CSS */
+html {
+  scroll-behavior: smooth;
+}
+h1,h2,h3,h4 {
+  font-family: 'Kaushan Script', cursive;
+}
+.font-primary {
+  font-family: 'Kaushan Script', cursive;
+}
+.font-secondary {
+  font-family: 'Raleway', sans-serif;
+}
 .bg-black {
   background: #111;
 }
+.bg-light {
+  background: #efefef;
+}
+.text-yellow {
+  color: yellow;
+}
+
 .navbar .navbar-brand {
   height: 70px;
 }
 .navbar .navbar-brand img {
   height: 100%;
+}
+.section-padding {
+  padding: 100px 0;
+}
+
+/* banner */
+.masthead {
+  background: url("../img/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.masthead .caption-wrapper {
+  margin-top: 15rem;
+}
+.masthead .hero-text {
+  font-size: 3rem;
+}
+.masthead .tagline {
+  font-size: 20px;
+}
+
+/* about */
+#about .info-img {
+  background: url("../img/about.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 300px;
+}
+#about .info-about {
+  padding: 1rem;
+}
+
+/* call to action */
+#call-to-action {
+  background: rgb(33,26,26);
+  background: linear-gradient(121deg, rgba(33,26,26,1) 0%, rgba(64,0,145,1) 90%);
+  min-height: 350px;
+}
+#call-to-action h1 {
+  font-size: 2.5rem;
+}
+
+/* testimonials */
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+  background-color: #444;
+}
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#contact .info-wrap {
+  padding: 30px;
+}
+
+#contact .info {
+  background: #f8f9fa;
+}
+
+#contact .info i {
+  font-size: 20px;
+  color: #ffb03b;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fff6e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #433f39;
+  font-family: "Poppins", sans-serif;
+}
+
+#contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #7a7368;
+  word-wrap: break-word;
+}
+
+#contact .info:hover i {
+  background: #ffb03b;
+  color: #fff;
+}
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .navbar .navbar-collapse .navbar-nav {
+    padding: 1rem 0;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-link {
+    text-align: center;
+  }
 }
